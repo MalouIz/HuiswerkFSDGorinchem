@@ -1,87 +1,123 @@
 <!DOCTYPE html>
 <html lang="nl">
 <head>
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<style>
-[class*="col-"] {
-width: 100%;
-}
-@media only screen and (min-width: 768px) 
-{
-[class*="col-"] {
-float: left;padding: 15px;
-}
-.col-1 {width: 8.33%;}
-.col-2 {width: 16.66%;}
-.col-3 {width: 25%;}
-.col-4 {width: 33.33%;}
-.col-5 {width: 41.66%;}
-.col-6 {width: 50%;}
-.col-7 {width: 58.33%;}
-.col-8 {width: 66.66%;}
-.col-9 {width: 75%;}
-.col-10 {width: 83.33%;}
-.col-11 {width: 91.66%;}
-.col-12 {width: 100%;}
-}
-.header {
-background: url('afb/gorinchem.jpg') no-repeat center center;
-background-size: cover;
-color: white;
-padding: 15px;
-font-family: Arial, Helvetica, sans-serif;
-}
-.sidestyle {
-background-color: rgb(58, 74, 36);
-color: white;
-padding: 15px;
-font-family: Arial, Helvetica, sans-serif;
-}
-.centerstyle {
-background-color: hsl(85, 100%, 86%);
-color: black;
-padding: 15px;
-font-family: Arial, Helvetica, sans-serif;
-}
-.centerstyle2 {
-background-color: lch(98.51% 25.82 112.38);
-color: black;
-padding: 15px;
-font-family: Arial, Helvetica, sans-serif;
-}
-img{float: right;margin-right: 5px;}
-</style>
-<title>Gorinchem</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gorinchem</title>
+    <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@500&display=swap" rel="stylesheet">
+
+    <style>
+        [class*="col-"] {
+            width: 100%;
+        }
+        @media only screen and (min-width: 768px) {
+            [class*="col-"] {
+                float: left;
+                padding: 15px;
+            }
+            .col-1 {width: 8.33%;}
+            .col-2 {width: 16.66%;}
+            .col-3 {width: 25%;}
+            .col-4 {width: 33.33%;}
+            .col-5 {width: 41.66%;}
+            .col-6 {width: 50%;}
+            .col-7 {width: 58.33%;}
+            .col-8 {width: 66.66%;}
+            .col-9 {width: 75%;}
+            .col-10 {width: 83.33%;}
+            .col-11 {width: 91.66%;}
+            .col-12 {width: 100%;}
+
+           .row::after {
+                content: "";
+                clear: both;
+                display: table;
+            }
+        }
+
+       .header {
+            background: url('gorinchem.jpg') no-repeat center center;
+            background-size: cover;
+            color: white;
+            padding: 15px;
+            font-family: 'Oswald', sans-serif;
+        }
+
+        .sidestyle {
+            background-color: rgb(58, 74, 36);
+            color: white;
+            padding: 15px;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        .right-container {
+            background-color: hsl(85, 100%, 86%); 
+            padding: 15px;
+        }
+
+        .centerstyle {
+           background-color: hsl(85, 100%, 86%);
+           padding: 15px;
+          font-family: Arial, Helvetica, sans-serif;
+        }
+
+        .centerstyle2 {
+          background-color: lch(98.51% 25.82 112.38);
+          padding: 15px;
+          font-family: Arial, Helvetica, sans-serif;
+        }
+
+        img {
+           float: right;
+           margin-right: 5px;
+        }
+
+    </style>
 </head>
 <body>
-<div class="header">
-<header>
-<h1>Gorinchem</h1></header>
-</div>
-<div class="col-2 sidestyle">
-<b>5 leuke feitjes over Gorinchem:</b>
-<ul>
-<li>Gorinchem is een vestingstad in de provincie Zuid-Holland.</li>
-<li>Gorinchem heeft een rijke geschiedenis die teruggaat tot de middeleeuwen.</li>
-<li>Gorinchem staat bekend om zijn goed bewaarde vestingwerken en historische gebouwen.</li>
-<li>Gorinchem heeft een gezellig centrum met leuke winkels, restaurants en cafés.</li>
-<li>Gorinchem ligt aan de rivier de Merwede, wat zorgt voor mooie uitzichten en recreatiemogelijkheden.</li>
-</ul>
-</div>
-<div class="col-9 centerstyle">
-<h1>Vesting</h1>
-<p><img src="afb/vesting.jpg" alt="Vesting" style="width: 300px; height: auto;"> Gorinchem, Woudrichem, Slot Loevestein en Fort Vuren vormen samen de Vestingdriehoek. Met een wandeling langs de vestingwallen ontdek je oude kanonnen en de molens “Nooit Volmaakt” en “De Hoop”. Gorinchem heeft een historisch stadscentrum met als trekpleister de Oude Markt met gezellige terrasjes. Met de veerdienst kan je een ronde maken langs de hele vestingdriehoek.
-<br><br>Gorinchem maakte als vestingstad onderdeel uit van zowel de Oude als de Nieuwe Hollandse Waterlinie. Samen met het tegenoverliggende Woudrichem zorgde deze vesting voor de afsluiting van de rivier de Waal voor de vijand. Er bevonden zich in de stad kazernes, artillerieloodsen en veel andere gebouwen met een militaire bestemming. Een deel hiervan is bewaard gebleven. Door de vele monumentale panden, de zestiende-eeuwse stadswallen en de prachtige stadspoort is de historie overal in de binnenstad zichtbaar en tastbaar.</p>
-</div>
-<div class="col-9 centerstyle2">
-<h1>Scheve toren</h1>
-<p><img src="afb/toren.jpeg" alt="Scheve toren" style="width: 300px; height: auto;">De Grote Toren zie je al van ver. Het is dan ook het meest opvallende gebouw in de vesting. Nog leuker is zelf de toren beklimmen en het onvergetelijke uitzicht ervaren.   
-<br><br>
-<b>Verhaal</b><br>
-Deze laat-middeleeuwse toren hoorde in 1572 natuurlijk bij de katholieke St. Maartenskerk. Die is tijdens het beleg van 1813/1814 zo zwaar beschadigd dat het werd afgebroken. Nu staat er een 19e eeuws kerkgebouw; de Grote Kerk. De toren wordt nu de Grote Toren genoemd. En groot is de toren nog steeds, om niet te zeggen groots! Halverwege het kerkgebouw, aan de zijde van het Zusterhuis, zou vroeger een ondergrondse gang hebben gelopen naar het Agnietenklooster, zodat de zusters ongezien naar de kerk konden gaan. Maar dit verhaal is nooit aangetoond.</p>
-</div>
-<div class="col-12">
-<footer><p>Copyright 2026</p></footer>
-</div>
+
+    <div class="header">
+        <header>
+            <h1>Gorinchem</h1>
+        </header>
+    </div>
+
+    <div class="row">
+    
+        <div class="col-2 sidestyle">
+            <b>5 leuke feitjes over Gorinchem:</b>
+            <ul>
+                <li>Gorinchem is een vestingstad in de provincie Zuid-Holland.</li>
+                <li>Gorinchem heeft een rijke geschiedenis die teruggaat tot de middeleeuwen.</li>
+                <li>Gorinchem staat bekend om zijn goed bewaarde vestingwerken en historische gebouwen.</li>
+                <li>Gorinchem heeft een gezellig centrum met leuke winkels, restaurants en cafés.</li>
+                <li>Gorinchem ligt aan de rivier de Merwede, wat zorgt voor mooie uitzichten en recreatiemogelijkheden.</li>
+            </ul>
+        </div>
+
+        <div class="col-9 right-container">
+
+            <div class="centerstyle">
+                <h1>Vesting</h1>
+                <img src="afb/vesting.jpg" alt="Vesting" style="width: 300px; height: auto;"> 
+                <p>Gorinchem, Woudrichem, Slot Loevestein en Fort Vuren vormen samen de Vestingdriehoek. Met een wandeling langs de vestingwallen ontdek je oude kanonnen en de molens “Nooit Volmaakt” en “De Hoop”. Gorinchem heeft een historisch stadscentrum met als trekpleister de Oude Markt met gezellige terrasjes. Met de veerdienst kan je een ronde maken langs de hele vestingdriehoek.</p>
+                <br><br>
+                <p>Gorinchem maakte als vestingstad onderdeel uit van zowel de Oude als de Nieuwe Hollandse Waterlinie. Samen met het tegenoverliggende Woudrichem zorgde deze vesting voor de afsluiting van de rivier de Waal voor de vijand. Er bevonden zich in de stad kazernes, artillerieloodsen en veel andere gebouwen met een militaire bestemming. Een deel hiervan is bewaard gebleven. Door de vele monumentale panden, de zestiende-eeuwse stadswallen en de prachtige stadspoort is de historie overal in de binnenstad zichtbaar en tastbaar.</p>
+            </div>
+
+           <div class="centerstyle2">
+                <h1>Scheve toren</h1>
+                <img src="afb/toren.jpeg" alt="Scheve toren" style="width: 300px; height: auto;">
+                <p>De Grote Toren zie je al van ver. Het is dan ook het meest opvallende gebouw in de vesting. Nog leuker is zelf de toren beklimmen en het onvergetelijke uitzicht ervaren.</p>
+                <br>
+                <br>
+                <p><strong>Verhaal</strong>Deze laat-middeleeuwse toren hoorde in 1572 natuurlijk bij de katholieke St. Maartenskerk. Die is tijdens het beleg van 1813/1814 zo zwaar beschadigd dat het werd afgebroken. Nu staat er een 19e eeuws kerkgebouw; de Grote Kerk. De toren wordt nu de Grote Toren genoemd. En groot is de toren nog steeds, om niet te zeggen groots! Halverwege het kerkgebouw, aan de zijde van het Zusterhuis, zou vroeger een ondergrondse gang hebben gelopen naar het Agnietenklooster, zodat de zusters ongezien naar de kerk konden gaan. Maar dit verhaal is nooit aangetoond.</p>
+            </div>
+        </div>
+    </div>    
+
+    <footer class="col-12">
+           <p>Copyright 2026</p>
+    </footer>
+
 </body>
 </html>
